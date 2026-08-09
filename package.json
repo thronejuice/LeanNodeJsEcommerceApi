@@ -1,0 +1,32 @@
+{
+  "name": "leannodejsecommerceapi",
+  "version": "1.0.0",
+  "description": "E-Commerce REST API built with Node.js, Express, JWT, Cart, Inventory, and Stripe Integration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "/usr/bin/node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "/usr/bin/node src/seed.js",
+    "test": "/usr/bin/node --test tests/api.test.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "express",
+    "stripe",
+    "jwt",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "stripe": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
